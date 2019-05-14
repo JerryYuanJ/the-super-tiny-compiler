@@ -1,48 +1,45 @@
 [![The Super Tiny Compiler](https://cloud.githubusercontent.com/assets/952783/21579290/5755288a-cf75-11e6-90e0-029529a44a38.png)](the-super-tiny-compiler.js)
 
-***Welcome to The Super Tiny Compiler!***
+***欢迎来到超级微型编译器!***
 
-This is an ultra-simplified example of all the major pieces of a modern compiler
-written in easy to read JavaScript.
+这是一个超简单的例子，它用易读的JavaScript编写的，包含现代编译器的所有主要部分。
 
-Reading through the guided code will help you learn about how *most* compilers
-work from end to end.
+阅读指导代码将帮助你了解大多数编译器是如何从端到端工作的。
 
-### [Want to jump into the code? Click here](the-super-tiny-compiler.js)
+### [想直接阅读源码吗?点击这里](the-super-tiny-compiler.js)
 
-### [You can also check it out on Glitch](https://the-super-tiny-compiler.glitch.me/)
+### [你也可以在Glitch阅读](https://the-super-tiny-compiler.glitch.me/)
 
 ---
 
-### Why should I care?
+### 为什么我要关心这个呢？
 
-That's fair, most people don't really have to think about compilers in their day
-jobs. However, compilers are all around you, tons of the tools you use are based
-on concepts borrowed from compilers.
+的确，大多数人并不会在他们的日常工作中去考虑编译器的运行机制。但是，编译器就在你身边，你使用的很多工具
+都从编译器那借鉴了很多概念。
 
-### But compilers are scary!
+### 但是编译器真的很可怕！
 
-Yes, they are. But that's our fault (the people who write compilers), we've
-taken something that is reasonably straightforward and made it so scary that
-most think of it as this totally unapproachable thing that only the nerdiest of
-the nerds are able to understand.
+是的，它们的确很可怕。不过这是我们的错（写编译器的人），我们把一些本该很简单的东西弄的相当复杂，以至于
+很多人觉得编译器是可望不可及的东西，只有最书呆子的书呆子才能理解它们。
 
-### Okay so where do I begin?
+### 好了，我该从哪儿开始呢？
 
-Awesome! Head on over to the [the-super-tiny-compiler.js](the-super-tiny-compiler.js)
-file.
+太棒了！去[the-super-tiny-compiler.js](the-super-tiny-compiler.js)文件看看吧！
 
-### I'm back, that didn't make sense
+### 我回来了，这根本说不通啊
 
-Ouch, I'm really sorry. I'm planning on doing a lot more work on this to add
-inline annotations. If you want to come back when that's done, you can either
-watch/star this repo or follow me on
-[twitter](https://twitter.com/thejameskyle) for updates.
+额...我很抱歉。我打算花一些精力在这上面给每一行加上注释。如果你在我完成的时候又回来了，你可以
+watch/star这个项目或者在[twitter](https://twitter.com/thejameskyle)关注我来获取最新的动态。
 
-### Tests
+### 测试
 
-Run with `node test.js`
+运行 `node test.js`
 
 ---
 
 [![cc-by-4.0](https://licensebuttons.net/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)
+
+### 译者注
+
+源码中的每一行注释，我都在下面添加了中文翻译的注释。
+如您在阅读中发现错别字或者表述不当的地方，欢迎issue区讨论。如果您觉得本文对你有帮助，欢迎star。
