@@ -1,3 +1,12 @@
+
+### 译者注
+
+源码中的每一行注释，包括这个README，我都逐行的进行了翻译。
+如您在阅读中发现错别字或者表述不当的地方，欢迎issue区讨论。如果您觉得本文对你有帮助，欢迎star。
+
+---
+
+
 [![The Super Tiny Compiler](https://cloud.githubusercontent.com/assets/952783/21579290/5755288a-cf75-11e6-90e0-029529a44a38.png)](the-super-tiny-compiler.js)
 
 ***欢迎来到超级微型编译器!***
@@ -39,7 +48,3 @@ watch/star这个项目或者在[twitter](https://twitter.com/thejameskyle)关注
 
 [![cc-by-4.0](https://licensebuttons.net/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)
 
-### 译者注
-
-源码中的每一行注释，我都在下面添加了中文翻译的注释。
-如您在阅读中发现错别字或者表述不当的地方，欢迎issue区讨论。如果您觉得本文对你有帮助，欢迎star。
