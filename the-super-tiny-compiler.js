@@ -158,7 +158,7 @@
  *    represents code in a way that is both easy to work with and tells us a lot
  *    of information.
  * 
- * 2. *词法分析* 会接收这些tokens，然后把它们再格式化成另一种代表，用来描述语法的每一部分和他们之间的关系。
+ * 2. *语法分析* 会接收这些tokens，然后把它们再格式化成另一种代表，用来描述语法的每一部分和他们之间的关系。
  *    这就是我们知道的中间代表，或者称为的抽象语法树(AST).
  * 
  *    一个抽象语法树，或者简称为AST，是一个表示着代码的深度嵌套的对象，这种方式既容易工作，又能告诉我们很多
@@ -807,7 +807,7 @@ function parser(tokens) {
       // So we create a `while` loop that will continue until it encounters a
       // token with a `type` of `'paren'` and a `value` of a closing
       // parenthesis.
-      // 所以我们创建一个 while 循环，它会一致循环，直到遇到一个类型是 paren 并且值是 闭合括号的时候停止
+      // 所以我们创建一个 while 循环，它会一直循环，直到遇到一个类型是 paren 并且值是 闭合括号的时候停止
       while (
         (token.type !== 'paren') || // token不是括号类型
         (token.type === 'paren' && token.value !== ')') // token是括号类型但是不是闭合括号
